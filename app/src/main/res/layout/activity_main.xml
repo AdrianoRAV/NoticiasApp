@@ -19,7 +19,7 @@
         android:layout_width="0dp"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/celular" />
+        app:srcCompat="@drawable/ttt" />
 
     <TextView
         android:id="@+id/textView"
@@ -28,22 +28,24 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="Aprendendo Imagem"
+        android:text="Quarta etapa Taça Paraná de Skate 2019"
         android:textColor="#100F0F"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
+
     <TextView
+
         android:id="@+id/textView2"
         android:layout_width="0dp"
-        android:layout_height="160dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker"
+        android:text="O Circuito Taça Paraná de Skate chega à quarta e última etapa do ano, que será realizada em Curitiba pela PRa Skate nos dias 14 e 15 de dezembro.  Estarão em disputa as categorias Mirim, Feminino, Iniciante e Amador. As inscrições deverão ser feitas no dia e local do evento e são limitadas.  O evento será realizado na Curitiba Skate Park, situada na Travessa da Lapa, 231, no Centro, a partir das 9 horas da manhã.  A etapa terá 20 mil reais em premiações entre troféus para os três primeiros colocados de cada categoria e medalhas do quarto ao oitavo colocado. A categoria Feminino terá uma premiação especial da Mary Jane, que dará um tênis exclusivo para as três primeiras colocadas.  No final da etapa serão premiados os quatro campeões do Circuito da Taça Paraná com troféus personalizados. As categorias Feminino e Amador têm premiação especial de seis meses de apoio da marca Öus."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -80,8 +82,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:text=" Adriano Rodrigues de Assis"
+        android:text=" Adriano Rodrigues "
         app:layout_constraintBaseline_toBaselineOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -90,9 +93,17 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:text="07/10/2020"
+        android:text="10/12/2019"
         android:textSize="12sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ttt" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
